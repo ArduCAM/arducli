@@ -1,5 +1,4 @@
 #!/usr/bin/env python3
-
 import subprocess
 import sys
 import re
@@ -8,7 +7,6 @@ import glob
 import os
 import argparse
 import json
-
 
 # Optional YAML support
 try:
@@ -22,7 +20,6 @@ SENSOR_NAMES = [
     "arducam-pivariety",
     # Add other sensors here
 ]
-
 
 # GStreamer settings
 NUM_BUFFERS = 20
